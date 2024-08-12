@@ -10,6 +10,7 @@
 		AB29FD7F2C4E039E004ADDAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29FD7E2C4E039E004ADDAD /* ProfileViewController.swift */; };
 		AB29FD932C4E0E75004ADDAD /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29FD902C4E0E75004ADDAD /* OrderCell.swift */; };
 		AB29FD972C4E0EB0004ADDAD /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29FD942C4E0EB0004ADDAD /* ServiceCell.swift */; };
+		AB61A44F2C69CDE700FE79BF /* STYLiSH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB61A44D2C69CDE700FE79BF /* STYLiSH.xcdatamodeld */; };
 		AB74AFBB2C4A483A002FBA44 /* MarketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74AFBA2C4A483A002FBA44 /* MarketManager.swift */; };
 		AB74AFBF2C4A61F5002FBA44 /* MarketManagerDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74AFBE2C4A61F5002FBA44 /* MarketManagerDelegateProtocol.swift */; };
 		AB7A58532C61C125000DDB23 /* STOrderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A58342C61C125000DDB23 /* STOrderHeaderView.swift */; };
@@ -26,7 +27,6 @@
 		AB7A58632C61C125000DDB23 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A58472C61C125000DDB23 /* PaymentViewController.swift */; };
 		AB8336222C59E49E00554F97 /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8336212C59E49E00554F97 /* AddToCartViewController.swift */; };
 		AB8336242C59E7C600554F97 /* AddToCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8336232C59E7C600554F97 /* AddToCartCell.swift */; };
-		AB85000D2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB85000B2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodeld */; };
 		AB8500112C609A5F00EDDBD5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8500102C609A5F00EDDBD5 /* StorageManager.swift */; };
 		AB8500132C60DB1400EDDBD5 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8500122C60DB1400EDDBD5 /* CustomTabBarViewController.swift */; };
 		AB9799A32C620C90006F3298 /* TPDirect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9799A22C620C90006F3298 /* TPDirect.xcframework */; };
@@ -70,6 +70,7 @@
 		AB29FD7E2C4E039E004ADDAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AB29FD902C4E0E75004ADDAD /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		AB29FD942C4E0EB0004ADDAD /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		AB61A44E2C69CDE700FE79BF /* STYLiSH.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STYLiSH.xcdatamodel; sourceTree = "<group>"; };
 		AB74AFBA2C4A483A002FBA44 /* MarketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketManager.swift; sourceTree = "<group>"; };
 		AB74AFBE2C4A61F5002FBA44 /* MarketManagerDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketManagerDelegateProtocol.swift; sourceTree = "<group>"; };
 		AB7A58342C61C125000DDB23 /* STOrderHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STOrderHeaderView.swift; sourceTree = "<group>"; };
@@ -86,7 +87,6 @@
 		AB7A58472C61C125000DDB23 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		AB8336212C59E49E00554F97 /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
 		AB8336232C59E7C600554F97 /* AddToCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartCell.swift; sourceTree = "<group>"; };
-		AB85000C2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STYLiSH.xcdatamodel; sourceTree = "<group>"; };
 		AB8500102C609A5F00EDDBD5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		AB8500122C60DB1400EDDBD5 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		AB9799A22C620C90006F3298 /* TPDirect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TPDirect.xcframework; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 				ABA021672C61C2C000C2E2A5 /* Payment */,
 				ABAFDD0C2C479E5800FAC06C /* Assets.xcassets */,
 				ABAFDD112C479E5800FAC06C /* Info.plist */,
-				AB85000B2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodeld */,
+				AB61A44D2C69CDE700FE79BF /* STYLiSH.xcdatamodeld */,
 				AB9799A42C620EC0006F3298 /* Bridging-Header.h */,
 			);
 			path = STYLiSH;
@@ -548,8 +548,8 @@
 				AB7A58622C61C125000DDB23 /* UITableView+Extension.swift in Sources */,
 				AB7A58632C61C125000DDB23 /* PaymentViewController.swift in Sources */,
 				AB29FD7F2C4E039E004ADDAD /* ProfileViewController.swift in Sources */,
-				AB85000D2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodeld in Sources */,
 				ABBF5C8B2C50F61900A78E9C /* WomenClothesViewController.swift in Sources */,
+				AB61A44F2C69CDE700FE79BF /* STYLiSH.xcdatamodeld in Sources */,
 				AB9B90382C525CEE00377384 /* AccessoriesViewController.swift in Sources */,
 				ABBF5C792C4EBFD000A78E9C /* ProfileHeaderView.swift in Sources */,
 				ABA8D4BA2C5E8F5500BAC34E /* CartViewController.swift in Sources */,
@@ -836,15 +836,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		AB85000B2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodeld */ = {
+		AB61A44D2C69CDE700FE79BF /* STYLiSH.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AB85000C2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodel */,
+				AB61A44E2C69CDE700FE79BF /* STYLiSH.xcdatamodel */,
 			);
-			currentVersion = AB85000C2C5F8CB700EDDBD5 /* STYLiSH.xcdatamodel */;
-			name = STYLiSH.xcdatamodeld;
-			path = "/Users/tzuninglo/ios development/iOS-Class-Tech-Academy/students/Elle/STYLiSH/STYLiSH/STYLiSH.xcdatamodeld";
-			sourceTree = "<group>";
+			currentVersion = AB61A44E2C69CDE700FE79BF /* STYLiSH.xcdatamodel */;
+			path = STYLiSH.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
